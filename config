@@ -1,5 +1,5 @@
-exec compton -cCGfF -o 0.38 -O 200 -I 200 -t 0 -l 0 -r 3 -D2 -m 0.88
-exec feh --bg-scale /home/usr1/Pictures/wallpapers/1.jpg
+exec compton
+exec feh --bg-scale $HOME/Pictures/wallpapers/1.jpg
 new_window 1pixel
 set $mod Mod4
 font pango:Terminus 8
@@ -102,6 +102,6 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 bar {
-		position top
+        position top
         status_command i3status
 }
