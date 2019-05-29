@@ -127,7 +127,7 @@ client.background       #FFFFFF
 
 bar {
   position top
-  status_command i3status
+  status_command i3blocks
 
   colors {
     background #000000
